@@ -1,0 +1,87 @@
+/*! hackday - v1.0.0 - 2015-08-08 */
+html,body{ 
+    margin:0;
+    padding:0;
+    color: #505e53;
+}
+a {
+    text-decoration:none;
+    color: #5b5b5b;
+}
+a:hover {
+    text-decoration:none;
+    color: #35d15a;
+}
+.leftgroup {
+    position: absolute;
+    width: 200px;
+    background-color: #efefef;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.userinfo {
+    position: absolute;
+    left: 250px;
+}
+.userinfo div {
+    margin-bottom: 20px;
+}
+.inputwith {
+    width: 350px;
+}
+.userinfo button {
+    margin-top: 50px;
+}
+.user {
+    height: 68px;
+    background-color: #0c7725;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 22px;
+}
+.user img {
+    width: 40px;
+}
+.actives:hover {
+    color: #35d15a;
+    background-color: #ffffff;
+}
+.leftgroup div {
+    height: 68px;
+}
+.actives {
+    padding-top: 23px;
+    color: #5b5b5b;
+}
+.upimg {
+    font-size: 14px;
+    margin-top: 60px;
+    color: #505e53;
+}
+.upimg img {
+    width: 198px;
+    height: 111px;
+}
+input {
+    width: 300px;
+    line-height: 27px;
+    margin-top: -10px;
+}
+.btn {
+    width: 80px;
+    height: 26px;
+    background-color: #35d15a;
+    color: #ffffff;
+    line-height: 14px;
+    margin-left: 13px;
+}
+.btn:hover {
+    color: #ffffff;
+}
+.nocolor {
+    background-color: #a6a6a6;
+}
+.choose_time input{
+    width: 50px;
+}

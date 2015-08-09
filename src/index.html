@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hackday</title>  
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/hackday.css" />
+    </head>
+    <body>
+    
+    <div class="main">
+    <div class="background">
+      <!-- 用户信息 -->
+      <div id="userinfo">
+        <!-- <span class="userimg">
+          <a href="setting.html">
+            <img src="images/menu.png" />
+          </a>
+        </span> -->
+        <span id="login" class="userimg">请先登录</span>
+      </div>
+
+
+      <!-- 时间 -->
+      <div class="time">00:00</div>
+
+      <!-- 搜索 -->
+      <div class="search_box">
+          <div id="searchbox">
+              <form action="https://www.baidu.com/s?wd=" method="get">
+                  <input type="text" class="search_text" placeholder="请输入关键字搜索">
+                  <span class="search_btn">
+                    <img src="images/search.png" />
+                  </span>
+              </form>
+          </div>
+      </div>
+
+      <!-- 书签 -->
+      <div class="bookmarks">
+        <div class="constant-bookmarks">
+          <div id="tag-1" class="bookmarks-img">
+            <a href="http://www.baidu.com">
+              <div class="bookmarks-bg">百</div>
+              <div class="bookmarksname">百度</div>
+            </a>
+          </div>
+          <div id="tag-2" class="bookmarks-img">
+            <a href="http://www.baidu.com">
+              <div class="bookmarks-bg">百</div>
+              <div class="bookmarksname">百度</div>
+            </a>
+          </div>
+          <div id="tag-3" class="bookmarks-img">
+            <a href="http://www.baidu.com">
+              <div class="bookmarks-bg">百</div>
+              <div class="bookmarksname">百度</div>
+            </a>
+          </div>
+          <div id="tag-4" class="bookmarks-img">
+            <a href="http://www.baidu.com">
+              <div class="bookmarks-bg">百</div>
+              <div class="bookmarksname">百度</div>
+            </a>
+          </div>
+          <div id="tag-5" class="bookmarks-img">
+            <a href="http://www.baidu.com">
+              <div class="bookmarks-bg">百</div>
+              <div class="bookmarksname">百度</div>
+            </a>
+          </div>
+          <div id="tag-6" class="bookmarks-img">
+            <a href="http://www.baidu.com">
+              <div class="bookmarks-bg">百</div>
+              <div class="bookmarksname">百度</div>
+            </a>
+          </div>
+        </div><br>
+        <div class="variable-bookmarks">
+          <div class="bookmarks-img" data-id="1" data-type="0">
+            <a href="#">
+            <div class="bookmarks-bg-img">
+              <img src="images/addbookmarks.png" />
+            </div>
+            <div class="bookmarksname">添加书签</div>
+            </a>
+          </div>
+          <div class="bookmarks-img" data-id="1" data-type="0">
+           <a href="#">
+            <div class="bookmarks-bg-img">
+              <img src="images/addbookmarks.png" />
+            </div>
+            <div class="bookmarksname">添加书签</div>
+            </a>
+          </div>
+          <div class="bookmarks-img" data-id="1" data-type="0">
+            <a href="#">
+            <div class="bookmarks-bg-img">
+              <img src="images/addbookmarks.png" />
+            </div>
+            <div class="bookmarksname">添加书签</div>
+            </a>
+          </div>
+          <div class="bookmarks-img" data-id="1" data-type="0">
+            <a href="#">
+            <div class="bookmarks-bg-img">
+              <img src="images/addbookmarks.png" />
+            </div>
+            <div class="bookmarksname">添加书签</div>
+            </a>
+          </div>
+          <div class="bookmarks-img" data-id="1" data-type="0">
+            <a href="#">
+            <div class="bookmarks-bg-img">
+              <img src="images/addbookmarks.png" />
+            </div>
+            <div class="bookmarksname">添加书签</div>
+            </a>
+          </div>
+          <div class="bookmarks-img" data-id="1" data-type="0">
+            <a href="#">
+            <div class="bookmarks-bg-img">
+              <img src="images/addbookmarks.png" />
+            </div>
+            <div class="bookmarksname">添加书签</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 励志的话 -->
+      <div class="motivational">改变世界,从此开始</div>
+    </div>
+    </div>
+    <!-- 右边信息 -->
+    <div class="rightinfo">
+      <div class="headinfo">
+        干货
+        <span id="addinfoimg" class="infoimg">
+          <img src="images/add.png" />
+        </span>
+        <span id="subscribeinfoimg" class="infoimg">
+          <img src="images/subscribe.png" />
+        </span>
+      </div>
+      <div class="taginfo">
+        <span class="tag greentag">最新</span><span class="active tag">最热</span>
+      </div>
+      <div id="Pins">
+        <div class="textinfo">
+          <div class="titleinfo">优设网</div>
+          <div class="sharduser">
+            <span class="pit"></span>
+            <img src="images/userimg.png" />
+            TING-紫
+          </div>
+          <div class="looks">浏览: 4215+</div>
+          <div class="hrfinfo">https://www.baidu.com</div>
+          <div class="shardtext">推荐理由: 不好就是不敢回家都说不好</div>
+        </div>
+        <div class="textinfo">
+          <div class="titleinfo">优设网</div>
+          <div class="sharduser">
+            <img src="images/userimg.png" />
+            TING-紫
+          </div>
+          <div class="looks">浏览: 4215+</div>
+          <div class="hrfinfo">https://www.baidu.com</div>
+          <div class="shardtext">推荐理由: 不好就是不敢回家都说不好</div>
+        </div>
+        <div class="textinfo">
+          <div class="titleinfo">优设网</div>
+          <div class="sharduser">
+            <img src="images/userimg.png" />
+            TING-紫
+          </div>
+          <div class="looks">浏览: 4215+</div>
+          <div class="hrfinfo">https://www.baidu.com</div>
+          <div class="shardtext">推荐理由: 不好就是不敢回家都说不好</div>
+        </div>
+        <div class="textinfo">
+          <div class="titleinfo">优设网</div>
+          <div class="sharduser">
+            <img src="images/userimg.png" />
+            TING-紫
+          </div>
+          <div class="looks">浏览: 4215+</div>
+          <div class="hrfinfo">https://www.baidu.com</div>
+          <div class="shardtext">推荐理由: 不好就是不敢回家都说不好</div>
+        </div>
+        <div class="textinfo">
+          <div class="titleinfo">优设网</div>
+          <div class="sharduser">
+            <img src="images/userimg.png" />
+            TING-紫
+          </div>
+          <div class="looks">浏览: 4215+</div>
+          <div class="hrfinfo">https://www.baidu.com</div>
+          <div class="shardtext">推荐理由: 不好就是不敢回家都说不好</div>
+        </div>
+        <div class="textinfo">
+          <div class="titleinfo">优设网</div>
+          <div class="sharduser">
+            <img src="images/userimg.png" />
+            TING-紫
+          </div>
+          <div class="looks">浏览: 4215+</div>
+          <div class="hrfinfo">https://www.baidu.com</div>
+          <div class="shardtext">推荐理由: 不好就是不敢回家都说不好</div>
+        </div>
+        <div class="textinfo">
+          <div class="titleinfo">优设网</div>
+          <div class="sharduser">
+            <img src="images/userimg.png" />
+            TING-紫
+          </div>
+          <div class="looks">浏览: 4215+</div>
+          <div class="hrfinfo">https://www.baidu.com</div>
+          <div class="shardtext">推荐理由: 不好就是不敢回家都说不好</div>
+        </div>
+        <div class="textinfo">
+          <div class="titleinfo">优设网</div>
+          <div class="sharduser">
+            <img src="images/userimg.png" />
+            TING-紫
+          </div>
+          <div class="looks">浏览: 4215+</div>
+          <div class="hrfinfo">https://www.baidu.com</div>
+          <div class="shardtext">推荐理由: 不好就是不敢回家都说不好</div>
+        </div>
+        <div class="textinfo">
+          <div class="titleinfo">优设网</div>
+          <div class="sharduser">
+            <img src="images/userimg.png" />
+            TING-紫
+          </div>
+          <div class="looks">浏览: 4215+</div>
+          <div class="hrfinfo">https://www.baidu.com</div>
+          <div class="shardtext">推荐理由: 不好就是不敢回家都说不好</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 添加干货 -->
+    <div class="modal fade" id="addshard" tabindex="-1" role="dialog" aria-labelledby="addshardModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="addshardModal">添加干货</h4>
+          </div>
+          <div class="modal-body textcolor choose_color">
+          <div>标题：<input type="text" id="sharetitle"></div>
+          <div>网址：<input type="text" id="shareurl"></div>
+          <div>分享理由：<input type="text" id="sharereason"></div>
+          <div id="focuslists">可见标签：
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            <button type="button" class="btn btn-primary" id="shardok">添加</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 编辑书签 -->
+    <div class="modal fade" id="addbookmarks" tabindex="-1" role="dialog" aria-labelledby="addbookmarksModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="addbookmarksModal" data-id="1">编辑书签</h4>
+          </div>
+          <div class="modal-body textcolor choose_color">
+          <div>标题：<input type="text" id="tag_name"></div>
+          <div>网址：<input type="text" id="tag_url"></div>
+          <div id="choose_color">
+            <span class="red_garden blue"></span><span class="red_garden red"></span><span class="red_garden gold"></span><span class="red_garden lime"></span><span class="red_garden turquoise"></span>
+            <span class="red_garden cyan"></span><span class="red_garden deepSkyBlue"></span><span class="red_garden dodgerBlue"></span><span class="red_garden navy"></span><span class="red_garden purple"></span>
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            <button id="editbookmarks" type="button" class="btn btn-primary">确认</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 编辑关注 -->
+    <div class="modal fade" id="addFocus" tabindex="-1" role="dialog" aria-labelledby="addFocusModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="addFocusModal">关注标签</h4>
+          </div>
+          <div class="modal-body textcolor choose_color">
+          <div id="focuslist">
+            等待数据中....
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            <button type="button" class="btn btn-primary" id="tagedit">确认</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- 登录页面 -->
+    <div class="modal fade" id="logins" tabindex="-1" role="dialog" aria-labelledby="loginlModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="loginlModal">登录</h4>
+          </div>
+          <div class="modal-body textcolor choose_color">
+            <div>用户名：<input type="text" id="usermail"></div>
+            <div>密码：<input type="password" id="userpassword"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            <button type="button" class="btn btn-primary" id="loginbtn">确认</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hackday.js"></script>
+    </body>
+</html>

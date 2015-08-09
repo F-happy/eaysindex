@@ -1,0 +1,276 @@
+/*! hackday - v1.0.0 - 2015-08-08 */
+html,body{ 
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:none;
+}
+.main {
+    background: url(../images/background.jpg);
+    position: fixed;
+    width: 100%;
+}
+
+$white: #ffffff;
+$green: #35d15a;
+
+.blue {
+    background: #0017FF;
+}
+.red {
+    background: #FF0000;
+}
+.gold {
+    background: #FFD700;
+}
+.lime {
+    background: #008000;
+}
+.turquoise {
+    background: #40E0D0;
+}
+.cyan {
+    background: #00FFFF;
+}
+.deepSkyBlue {
+    background: #00BFFF;
+}
+.dodgerBlue {
+    background: #1E90FF;
+}
+.navy {
+    background: #000080;
+}
+.purple {
+    background: #800080;
+}
+#login {
+    cursor: pointer;
+}
+.hkmiddle {
+    text-align: center;
+}
+.red_garden {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 2%;
+}
+.red_garden_hover {
+    border: 3px solid $white;
+    border-radius: 10px;
+}
+.red_garden:hover {
+    border: 3px solid $white;
+    border-radius: 10px;
+}
+.choose_color div{
+    margin: 4% 0 0 6%;
+}
+.choose_color input {
+    margin-left: 5%;
+}
+.textcolor {
+    font-size: 20px;
+}
+.choose_text {
+    font-size: 22px;
+}
+.choose_text input{
+    margin-left: 10%;
+}
+.background {
+    background: rgba(0, 0, 0, 0.3);
+    height: 995px;
+    width: 100%;
+}
+#userinfo {
+    padding-top: 14px;
+    font-size: 20px;
+    color: $white;
+}
+#userinfo span {
+    margin-right: 20px;
+}
+.userimg {
+    margin-left: 30px;
+}
+.time {
+    color: $white;
+    font-size: 500%;
+    width: 200px;
+    text-shadow: 5px 5px 5px #888888;
+    text-align: center;
+    margin: 10px 34%;
+}
+/*search*/
+.search_box {
+    width: 255px;
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 2px;
+    margin: 10px 33%;
+    color: $white;
+}
+.search_text {
+    width: 220px;
+    height: 35px;
+    background-color:transparent;
+    border: 0;
+    color: $white;
+    text-align: center;
+}
+.search_btn {
+    cursor: pointer;
+}
+.search_btn img {
+    width: 20px;
+}
+
+// bookmarks
+.bookmarks {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -20%;
+}
+.constant-bookmarks {
+    display: inline-flex;
+    margin: 0 auto;
+}
+.bookmarks-bg {
+    width: 130px;
+    height: 130px;
+    background-color: $white;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 500%;
+    line-height: 185%;
+}
+.bookmarks-img {
+    margin: 10px;
+}
+.bookmarksname {
+    color: $white;
+    text-shadow: 5px 5px 5px #888888;
+}
+.variable-bookmarks {
+    display: inline-flex;
+    margin: 0 auto;
+}
+.bookmarks-bg-img {
+    cursor: pointer;
+    width: 130px;
+}
+.bookmarks-bg-img img {
+    width: 100%;
+}
+.motivational {
+    margin: 2% 34%;
+    color: $white;
+    font-size: 25px;
+}
+.rightinfo {
+    width: 180px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+#Pins {
+    background: rgba(0, 0, 0, 0.5);
+}
+.headinfo {
+    height: 50px;
+    background: rgba(0, 0, 0, 0.8);
+    color: $white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.headinfo span {
+    float: right;
+}
+.infoimg {
+    width: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.infoimg img {
+    width: 20px;
+}
+.taginfo {
+    height: 50px;
+}
+.active {
+    background: rgba(0, 0, 0, 0.65);
+    color: #9d9d9c;
+}
+.tag {
+    width: 50%;
+    display: inline-block;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 26px;
+    cursor: pointer;
+}
+.greentag {
+    border-bottom: 2px solid $green;
+    color: $green;
+    background: rgba(0, 0, 0, 0.5);
+}
+.textinfo {
+    height: 150px;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 9px;
+    color: $white;
+    cursor: pointer;
+}
+.textinfo div {
+    margin-bottom: 5px; 
+}
+.sharduser {
+    color: $green;
+}
+.sharduser img {
+    width: 20px;
+}
+.pit {
+    width: 4px;
+    height: 4px;
+    background-color: $green;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -3%;
+    margin-top: 5%;
+}
+.looks {
+    font-size: 10px;
+    margin-left: 25px;
+}
+.hrfinfo {
+    color: #9d9d9c;
+}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color: $white;
+    font-size: 18px;
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color: $white;
+    font-size: 18px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color: $white;
+    font-size: 18px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color: $white;
+    font-size: 18px;
+}
